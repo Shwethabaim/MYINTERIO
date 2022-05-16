@@ -21,17 +21,32 @@
     margin-left: 550px;
 }
 
+h3 {
+    text-align: center;
+}
+
 /* all images in marquee tag */
 .allimageslide img {
     width: 400px;
     height: 400px;
 }
 
-h3 {
-    text-align: center;
+/* background color change for marquee section */
+#marquees {
+    animation: abc 3s infinite;
 }
 
-/* HOW IT WORKS SECTION (IMAGE CONTENTSS)*/
+@keyframes abc {
+    from {
+        background-color: yellow;
+    }
+
+    to {
+        background-color: turquoise;
+    }
+}
+
+/* HOW IT WORKS SECTION (IMAGE & CONTENTS)*/
 .div1 {
     display: flex;
     justify-content: center;
