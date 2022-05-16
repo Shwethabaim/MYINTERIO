@@ -1,0 +1,33 @@
+body {
+    background: url("https://linesmag.com/wp-content/uploads/2020/12/yaroslav3.jpg") no-repeat center center/cover;
+    background-color: grey;
+    height: 100%;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(112, 8, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.mainform {
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 25%;
+    margin-top: 25px;
+    margin: 118px auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(163, 159, 159);
+}
+
+.label {
+    font-size: 35px;
+}
+
+.button {
+    color: black;
+}
